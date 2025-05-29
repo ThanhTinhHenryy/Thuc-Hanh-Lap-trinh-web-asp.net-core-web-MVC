@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TranTinh_3282_W3.props" />
+</Project>
