@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Category\" />
     <Folder Include="wwwroot\images\ads\" />
     <Folder Include="wwwroot\images\icon\" />
     <Folder Include="wwwroot\images\slides\" />

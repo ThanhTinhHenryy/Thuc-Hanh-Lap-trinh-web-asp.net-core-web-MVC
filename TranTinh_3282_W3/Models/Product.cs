@@ -14,5 +14,9 @@ namespace TranTinh_3282_W3.Models
         public List<ProductImage>? Images { get; set; }
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
+
+        // update spec for product details
+        [StringLength(500)]
+        public string? Spec { get; set; }
     }
 }

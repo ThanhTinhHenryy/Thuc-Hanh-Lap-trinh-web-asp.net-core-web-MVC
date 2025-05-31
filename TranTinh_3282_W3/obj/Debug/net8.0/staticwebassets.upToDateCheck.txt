@@ -1,11 +1,14 @@
-wwwroot\css\site.css
-wwwroot\css\style.css
+wwwroot\css\style.main.css
 wwwroot\favicon.ico
+wwwroot\images\490312797_680822827971647_6044639898341979319_n.jpg
+wwwroot\images\495157329_1388493529138268_8174516703938026079_n.jpg
+wwwroot\images\495174484_1214348356994472_6519074336605331301_n.jpg
 wwwroot\images\ads\ads-1.jpg
 wwwroot\images\ads\ads-2.jpg
 wwwroot\images\ads\ads-3.jpg
 wwwroot\images\hehehe.jpg
 wwwroot\images\icon\icon-fs.png
+wwwroot\images\IMG_0008.HEIC
 wwwroot\images\product\apple-watch.jpg
 wwwroot\images\product\balo.png
 wwwroot\images\product\chuot.png

@@ -1,93 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\",
+  "WorkspaceRootPath": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\controllers\\catagoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:controllers\\catagoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\views\\product\\displayproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\displayproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\views\\product\\testpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\testpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\migrations\\20250527073800_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:migrations\\20250527073800_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\trantinh_3282_w3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:trantinh_3282_w3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\TranTinh_3282_W3\\Migrations\\20250527073614_KhoiTao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\trantinh_3282_w3\\trantinh_3282_w3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\project\\trantinh_3282_w3\\.filenesting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:.filenesting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -97,275 +82,231 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAN0AAAAAAAAAAAAAADYBAAAIAAAA",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T13:04:04.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Product\\Update.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Update.cshtml",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Product\\Update.cshtml",
-              "RelativeToolTip": "Views\\Product\\Update.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T13:04:04.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Display.cshtml",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Product\\Display.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Display.cshtml",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Product\\Display.cshtml",
-              "RelativeToolTip": "Views\\Product\\Display.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T13:04:04.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Product\\Add.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Add.cshtml",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Product\\Add.cshtml",
-              "RelativeToolTip": "Views\\Product\\Add.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABEAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T13:04:04.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T13:04:04.78Z",
+              "WhenOpened": "2025-05-30T13:47:18.918Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:04:04.781Z"
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Delete.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Category\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T06:20:19.958Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-27T13:04:04.783Z",
+              "DocumentIndex": 9,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Update.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "Views\\Product\\Update.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwDUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T04:45:16.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Category\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Add.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Category\\Add.cshtml",
+              "RelativeToolTip": "Views\\Category\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T13:21:41.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAA1wGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:54:19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAA1wJEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:54:34.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Product\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Product\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Product\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
+              "Title": "TestPage.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Product\\TestPage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\TestPage.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Product\\TestPage.cshtml",
+              "RelativeToolTip": "Views\\Product\\TestPage.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T13:04:04.785Z"
+              "WhenOpened": "2025-05-31T04:37:38.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA0wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T13:21:23.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatagoriesController.cs",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Controllers\\CatagoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CatagoriesController.cs",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Controllers\\CatagoriesController.cs",
+              "RelativeToolTip": "Controllers\\CatagoriesController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA1wAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:36:31.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": ".filenesting.json",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\.filenesting.json",
+              "RelativeDocumentMoniker": ".filenesting.json",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\.filenesting.json",
+              "RelativeToolTip": ".filenesting.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-30T13:26:41.425Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T13:04:04.787Z"
+              "WhenOpened": "2025-05-31T05:04:32.571Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Repositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IProductRepository.cs",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Repositories\\IProductRepository.cs",
-              "RelativeToolTip": "Repositories\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:04:04.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAiwGwAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:04:04.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EFCategoryRepository.cs",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Repositories\\EFCategoryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\EFCategoryRepository.cs",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Repositories\\EFCategoryRepository.cs",
-              "RelativeToolTip": "Repositories\\EFCategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:04:04.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EFProductRepository.cs",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Repositories\\EFProductRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\EFProductRepository.cs",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Repositories\\EFProductRepository.cs",
-              "RelativeToolTip": "Repositories\\EFProductRepository.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAcwBcAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:04:04.792Z"
+              "Title": "DisplayProduct.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Product\\DisplayProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\DisplayProduct.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Product\\DisplayProduct.cshtml",
+              "RelativeToolTip": "Views\\Product\\DisplayProduct.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwB8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T05:46:54.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "20250527073800_Initial.cs",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Migrations\\20250527073800_Initial.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250527073800_Initial.cs",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Migrations\\20250527073800_Initial.cs",
-              "RelativeToolTip": "Migrations\\20250527073800_Initial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:04:04.794Z"
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Category\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Update.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Category\\Update.cshtml",
+              "RelativeToolTip": "Views\\Category\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T13:42:24.831Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Repositories\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ICategoryRepository.cs",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Repositories\\ICategoryRepository.cs",
-              "RelativeToolTip": "Repositories\\ICategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Add.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "Views\\Product\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T14:55:06.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:04:04.795Z"
+              "WhenOpened": "2025-05-31T04:47:18.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Product\\Display.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Display.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Product\\Display.cshtml",
+              "RelativeToolTip": "Views\\Product\\Display.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T05:27:32.013Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "TranTinh_3282_W3.csproj",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\TranTinh_3282_W3.csproj",
-              "RelativeDocumentMoniker": "TranTinh_3282_W3.csproj",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\TranTinh_3282_W3.csproj",
-              "RelativeToolTip": "TranTinh_3282_W3.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-27T13:04:04.798Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T13:43:38.025Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "20250527073614_KhoiTao.cs",
-              "DocumentMoniker": "M:\\TranTinh_3282_W3\\Migrations\\20250527073614_KhoiTao.cs",
-              "ToolTip": "M:\\TranTinh_3282_W3\\Migrations\\20250527073614_KhoiTao.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBIAAAAAAAAA",
+              "Title": "EFCategoryRepository.cs",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Repositories\\EFCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCategoryRepository.cs",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\Project\\TranTinh_3282_W3\\Repositories\\EFCategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\EFCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T07:36:14.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:04:04.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductImage.cs",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Models\\ProductImage.cs",
-              "RelativeDocumentMoniker": "Models\\ProductImage.cs",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Models\\ProductImage.cs",
-              "RelativeToolTip": "Models\\ProductImage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:04:04.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:04:04.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:04:04.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\TranTinh_3282_W3\\TranTinh_3282_W3\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAgAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:04:04.968Z"
+              "WhenOpened": "2025-05-29T12:59:45.497Z"
             }
           ]
         }

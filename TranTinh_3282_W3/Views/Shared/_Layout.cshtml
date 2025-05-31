@@ -1,55 +1,4 @@
-﻿@* <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - TranTinh_3282_W3</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/TranTinh_3282_W3.styles.css" asp-append-version="true" />
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TranTinh_3282_W3</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - TranTinh_3282_W3 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
-</html> *@
-
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -60,10 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
-    <!-- thu vien slick -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
-
-    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="~/css/style.main.css" />
   </head>
 
   <body>
@@ -73,9 +19,10 @@
         <!--* navbar -->
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd">
           <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center" href="#">
+            <a class="navbar-brand d-flex align-items-center"  asp-controller="Home" asp-action="Index">
               <img src="~/images/hehehe.jpg" alt="icon" width="30" height="24" class="me-2" />
               <span class="fw-bold text-dark">Thanh Tịnh Shop</span>
+
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <!-- ?  Nút này xuất hiện khi giao diện ở chế độ màn hình nhỏ (responsive/mobile). -->
@@ -139,6 +86,24 @@
             </div>
           </div>
         </nav>
+            <div class="admin-nav my-3">
+                <ul class="nav nav-pills">
+                    <!-- Category Management -->
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Category" asp-action="Index">Quản lý Danh Mục</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Category" asp-action="Add">Thêm Danh Mục</a>
+                    </li>
+                    <!-- Product Management -->
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Product" asp-action="Index">Quản lý Sản Phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Product" asp-action="Add">Thêm Sản Phẩm</a>
+                    </li>
+                </ul>
+            </div>
 
         <!--* banner -->
         <div class="container-fluid mt-1">
@@ -210,6 +175,8 @@
           </div>
         </div>
       </header>
+
+      
 
       <div class="flex-grow-1 border-top mt-2 mb-2"></div>
 

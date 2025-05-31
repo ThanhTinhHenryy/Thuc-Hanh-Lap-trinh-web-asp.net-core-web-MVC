@@ -93,7 +93,7 @@ namespace TranTinh_3282_W3.Controllers
         IFormFile imageUrl)
         {
             ModelState.Remove("ImageUrl"); // Loại bỏ xác thực ModelState cho ImageUrl
-        if (id != product.Id)
+            if (id != product.Id)
             {
                 return NotFound();
             }
@@ -102,7 +102,7 @@ namespace TranTinh_3282_W3.Controllers
                 var existingProduct = await
                 _productRepository.GetByIdAsync(id); // Giả định có phương thức GetByIdAsync
                                                      // Giữ nguyên thông tin hình ảnh nếu không có hình mới được tải lên
-            if (imageUrl == null)
+                if (imageUrl == null)
                 {
                     product.ImageUrl = existingProduct.ImageUrl;
                 }
@@ -140,6 +140,14 @@ namespace TranTinh_3282_W3.Controllers
         {
             await _productRepository.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
+        }
+
+        //Hiển Thị Sản Phẩm
+        public async Task<IActionResult> DisplayProduct()
+        {
+            var products = await _productRepository.GetAllAsync();
+            return View(products);
+
         }
     }
 }
