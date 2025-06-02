@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranTinh_3282_W3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+306fa23f455c228c1f90d4a74099c74d7cb39fdf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+864a5d99c1b24700b69972116fc3ec53170bbdcb")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranTinh_3282_W3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranTinh_3282_W3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

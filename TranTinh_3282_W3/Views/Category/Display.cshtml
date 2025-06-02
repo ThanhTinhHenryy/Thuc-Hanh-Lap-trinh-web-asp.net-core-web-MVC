@@ -1,0 +1,68 @@
+﻿@model TranTinh_3282_W3.Models.Category
+
+<h2>Category: @Model.Name</h2>
+
+@if (Model.Products != null && Model.Products.Any())
+{
+    <h4>Products in this category:</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Spec</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var product in Model.Products)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>@product.Description</td>
+                <td>@product.Spec</td>
+                <td>
+                    <a asp-controller="Product" asp-action="Display" asp-route-id="@product.Id">View</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+    @* Cách hiển thị khác *@
+    @foreach (var item in Model.Products)
+    {
+        <div class="card border-1" style="max-width: 280px">
+            <img src="@item.ImageUrl" class="card-img-top" alt="Product Image" />
+            <div class="card-body">
+                <h5 class="card-title text-truncate-1">@item.Name</h5>
+                <p class="card-text text-truncate-2">@item.Description</p>
+                <p class="card-text spec-line text-truncate-1">@item.Spec</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="h5 mb-0">@item.Price</span>
+                    <div>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-half text-warning"></i>
+                        <small class="text-muted">(4.5)</small>
+                    </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">31,800,000₫</span>
+            </div>
+            <div class="card-footer d-flex justify-content-lg-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <a class="btn btn-success btn-sm" asp-route-id="@item.Id" asp-controller="Product" asp-action="Display">Xem Chi Tiết</a>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+            </div>
+        </div>
+    }
+                        
+}
+else
+{
+    <p>No products in this category.</p>
+}

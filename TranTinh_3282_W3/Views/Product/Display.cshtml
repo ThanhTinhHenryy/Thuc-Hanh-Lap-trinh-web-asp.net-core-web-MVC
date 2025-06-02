@@ -1,12 +1,87 @@
 ﻿@model TranTinh_3282_W3.Models.Product
-<h2>@Model.Name</h2>
-<div>
-    <h3>Price: @Model.Price</h3>
-    <p>@Model.Description</p>
-    @if (!string.IsNullOrEmpty(Model.ImageUrl))
-    {
-        <img src="@Model.ImageUrl" alt="Product Image" style="max-width:
-200px;" />
-    }
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+<div class="container py-5">
+    <div class="row">
+        <!-- Product Images -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <img src="@Model.ImageUrl" class="card-img-top" alt="Product Image" style="max-height:350px;object-fit:contain;">
+                }
+                else
+                {
+                    <img src="https://via.placeholder.com/350x350?text=No+Image" class="card-img-top" alt="No Image">
+                }
+                <div class="card-body">
+                    <div class="row g-2">
+                        @if (Model.Images != null && Model.Images.Any())
+                        {
+                            foreach (var img in Model.Images)
+                            {
+                                <div class="col-3">
+                                    <img src="@img.Url" class="img-thumbnail" alt="Thumbnail">
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="col-md-6">
+            <h1 class="h2 mb-3">@Model.Name</h1>
+            <div class="mb-3">
+                <span class="h4 me-2">@Model.Price.ToString("C")</span>
+                @* Nếu có giá gốc hoặc giảm giá, bạn có thể bổ sung thêm ở đây *@
+            </div>
+
+            <div class="mb-3">
+                <span class="badge bg-info">@Model.Category?.Name</span>
+            </div>
+
+            <p class="mb-4">
+                @Model.Description
+            </p>
+
+            <div class="mb-4">
+                <h6 class="mb-2">Thông số kỹ thuật</h6>
+                <div class="border rounded p-2 bg-light">
+                    @Model.Spec
+                </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Add to Cart</button>
+                <button class="btn btn-outline-secondary" type="button">
+                    <i class="far fa-heart me-2"></i>Add to Wishlist
+                </button>
+            </div>
+
+            <!-- Additional Info -->
+            <div class="mt-4">
+                <div class="d-flex align-items-center mb-2">
+                    <i class="fas fa-truck text-primary me-2"></i>
+                    <span>Free shipping on orders over $50</span>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                    <i class="fas fa-undo text-primary me-2"></i>
+                    <span>30-day return policy</span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-shield-alt text-primary me-2"></i>
+                    <span>2-year warranty</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-4">
+        <button class="btn btn-primary" type="button" onclick="history.back()">
+            <i class="fas fa-arrow-left me-2"></i>Quay lại
+        </button>
+    </div>
 </div>
-<a asp-action="Index">Back to List</a>

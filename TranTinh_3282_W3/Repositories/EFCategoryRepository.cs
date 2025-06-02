@@ -23,6 +23,7 @@ namespace TranTinh_3282_W3.Repositories
         public async Task<Category> GetByIdAsync(int id)
         {
             return await _context.Categories
+                .Include(c => c.Products) // Nạp luôn danh sách sản phẩm thuộc category này
                 .FirstOrDefaultAsync(c => c.Id == id); // Lấy Category theo ID
         }
 
@@ -49,6 +50,13 @@ namespace TranTinh_3282_W3.Repositories
                 _context.Categories.Remove(category); // Xóa Category
                 await _context.SaveChangesAsync(); // Lưu thay đổi vào cơ sở dữ liệu
             }
+        }
+
+        public async Task<Category> GetByIdAsync2(int id)
+        {
+            return await _context.Categories
+                .Include(c => c.Products) // Nạp luôn danh sách sản phẩm thuộc category này
+                .FirstOrDefaultAsync(c => c.Id == id);
         }
     }
 
