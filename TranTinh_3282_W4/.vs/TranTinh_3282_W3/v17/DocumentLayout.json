@@ -1,0 +1,358 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\views\\category\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\category\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\views\\product\\displayproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\displayproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\controllers\\catagoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:controllers\\catagoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\views\\product\\testpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\testpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|d:\\studyplace\\homework_exercises\\practice_code\\thuchanhlaptrinhweb\\w4\\thuc-hanh-lap-trinh-web-asp.net-core-web-mvc-master\\trantinh_3282_w3\\.filenesting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA4B4ED2-B566-4C6B-86D9-C90A403FC17A}|TranTinh_3282_W3.csproj|solutionrelative:.filenesting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T13:47:18.918Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:15:50.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T13:15:33.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Category\\Display.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Display.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Category\\Display.cshtml",
+              "RelativeToolTip": "Views\\Category\\Display.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwCQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T10:04:30.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Add.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "Views\\Product\\Add.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T14:55:06.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Category\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Add.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Category\\Add.cshtml",
+              "RelativeToolTip": "Views\\Category\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T13:21:41.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Delete.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Category\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T06:20:19.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Update.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "Views\\Product\\Update.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwDUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T04:45:16.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EFCategoryRepository.cs",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Repositories\\EFCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCategoryRepository.cs",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Repositories\\EFCategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\EFCategoryRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywA8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:59:45.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Product\\Display.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Display.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Product\\Display.cshtml",
+              "RelativeToolTip": "Views\\Product\\Display.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAUwFYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T05:27:32.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DisplayProduct.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Product\\DisplayProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\DisplayProduct.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Product\\DisplayProduct.cshtml",
+              "RelativeToolTip": "Views\\Product\\DisplayProduct.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T05:46:54.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T05:04:32.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T13:43:38.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CatagoriesController.cs",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Controllers\\CatagoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CatagoriesController.cs",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Controllers\\CatagoriesController.cs",
+              "RelativeToolTip": "Controllers\\CatagoriesController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:36:31.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA0wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T13:21:23.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TestPage.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Product\\TestPage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\TestPage.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Product\\TestPage.cshtml",
+              "RelativeToolTip": "Views\\Product\\TestPage.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T04:37:38.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAA1wJEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:54:34.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAA1wGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:54:19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": ".filenesting.json",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\.filenesting.json",
+              "RelativeDocumentMoniker": ".filenesting.json",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\.filenesting.json",
+              "RelativeToolTip": ".filenesting.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-30T13:26:41.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Category\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Update.cshtml",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Views\\Category\\Update.cshtml",
+              "RelativeToolTip": "Views\\Category\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T13:42:24.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\StudyPlace\\Homework_Exercises\\Practice_code\\ThucHanhLapTrinhWeb\\W4\\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\\TranTinh_3282_W3\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:47:18.807Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

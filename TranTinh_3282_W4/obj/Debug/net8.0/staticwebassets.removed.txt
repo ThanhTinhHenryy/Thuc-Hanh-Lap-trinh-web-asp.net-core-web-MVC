@@ -1,0 +1,4 @@
+D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\W4\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\TranTinh_3282_W3\wwwroot\css\style.content.css
+D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\W4\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\TranTinh_3282_W3\wwwroot\css\site.css
+D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\W4\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\TranTinh_3282_W3\wwwroot\css\style.css
+D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\W4\Thuc-Hanh-Lap-trinh-web-asp.net-core-web-MVC-master\TranTinh_3282_W3\wwwroot\css\style.main.css

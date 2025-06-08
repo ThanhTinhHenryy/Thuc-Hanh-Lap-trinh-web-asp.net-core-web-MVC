@@ -1,0 +1,147 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+} */
+
+*:root {
+  --bg-color: #5f8ce7;
+}
+
+.my-bg-color {
+  background-color: var(--bg-color);
+}
+
+/* Hiệu ứng hover cho các mục navbar */
+.navbar-nav .nav-link:hover {
+  background-color: #f0f0f0; /* Đổi màu nền khi hover */
+  color: #007bff; /* Đổi màu chữ khi hover */
+  transition: 0.2s;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4); /* nền đen mờ */
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; /* đảm bảo nằm trên hình ảnh */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 60% 60%;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* hover sáng hơn */
+}
+
+.text-truncate-1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Số dòng muốn hiển thị */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.spec-line {
+  text-align: center;
+  font-size: 0.6rem; /* nhỏ hơn */
+  font-weight: 500; /* đậm vừa */
+  color: #555; /* xám nhẹ */
+  font-style: italic; /* nghiêng */
+  white-space: nowrap; /* không xuống dòng */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 📱 Tablet: từ 576px đến 768px — 2 card mỗi hàng */
+@media (min-width: 576px) and (max-width: 768px) {
+  .best-seller-container .card {
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+}
+
+/* @media (max-width: 575.98px) {
+  .best-seller-container .card {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+} */
+
+/* ! footer */
+.footer-link {
+  color: #f8f9fa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #0d6efd;
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  margin: 0 8px;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-3px);
+  color: #fff;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  width: 50px; /* Chiều rộng */
+  height: 50px; /* Chiều cao bằng chiều rộng để thành hình vuông */
+  border-radius: 50%; /* Bo tròn 100% để thành hình tròn */
+  padding: 0; /* Loại bỏ padding thừa */
+  text-align: center; /* Canh giữa icon */
+  line-height: 50px; /* Canh dọc icon */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Bóng nhẹ cho nổi */
+  font-size: 24px; /* Kích cỡ icon */
+
+  background-color: #dc3545; /* màu đỏ bootstrap btn-danger */
+  color: white;
+
+  box-shadow: 0 4px 8px rgba(220, 53, 69, 0.6);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+#btn-back-to-top:hover {
+  box-shadow: 0 8px 15px rgba(220, 53, 69, 0.9);
+  transform: translateY(-3px);
+}
