@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\TranTinh_3282_W3.props" />
-</Project>
