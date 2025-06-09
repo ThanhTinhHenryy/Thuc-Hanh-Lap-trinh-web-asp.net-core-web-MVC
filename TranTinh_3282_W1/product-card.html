@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết sản phẩm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="assets/css/style.product.css" />
+  </head>
+  <body>
+    <!--* navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="assets/images/hehehe.jpg" alt="icon" width="30" height="24" class="me-2" />
+          <span class="fw-bold text-dark">Thanh Tịnh Shop</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- ?  Nút này xuất hiện khi giao diện ở chế độ màn hình nhỏ (responsive/mobile). -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Best Seller</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Legion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Iphone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ipad</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Danh Mục </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                <li><a class="dropdown-item" href="#">Điện Thoại</a></li>
+                <li><a class="dropdown-item" href="#">Máy Tính Bảng</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Phụ kiện laptop</a></li>
+                <li><a class="dropdown-item" href="#">Phụ kiện điện thoại</a></li>
+                <li><a class="dropdown-item" href="#">Sản phẩm khác</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Liên Hệ</a>
+            </li>
+          </ul>
+
+          <form class="d-flex flex-grow-1 mx-lg-3">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <!-- avt + dn + dk -->
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle"></i>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+            <li><a class="dropdown-item" href="/login">Đăng nhập</a></li>
+            <li><a class="dropdown-item" href="/register">Đăng ký</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Product Images -->
+        <div class="col-md-6 mb-4">
+          <img src="assets/images/product/legion-r7000p.png" alt="Product" class="img-fluid rounded mb-3 product-image border-1" id="mainImage" />
+          <div class="d-flex justify-content-evenly">
+            <img src="assets/images/product/legion-r7000p.png" alt="Thumbnail 1" class="thumbnail rounded active" onclick="changeImage(event, this.src)" />
+            <img src="assets/images/product/r7000p-1.png" alt="Thumbnail 2" class="thumbnail rounded" onclick="changeImage(event, this.src)" />
+            <img src="assets/images/product/r7000p-2.png" alt="Thumbnail 3" class="thumbnail rounded" onclick="changeImage(event, this.src)" />
+            <img src="assets/images/product/r7000p-3.png" alt="Thumbnail 4" class="thumbnail rounded" onclick="changeImage(event, this.src)" />
+          </div>
+
+          <div class="flex-grow-1 border-top my-4"></div>
+          <h5 class="d-block d-md-none">Legion Slim 5 R7000P 2024</h5>
+
+          <!-- Cấu hình sản phẩm -->
+          <div class="mt-4">
+            <h5 class="text-success">Thông số cấu hình:</h5>
+            <div class="row">
+              <div class="col-6">
+                <ul class="list-unstyled">
+                  <li><strong>CPU:</strong> AMD Ryzen 7 7840HS</li>
+                  <li><strong>RAM:</strong> 16GB DDR5 5600MHz</li>
+                  <li><strong>SSD:</strong> 512GB NVMe Gen 4</li>
+                  <li><strong>GPU:</strong> RTX 4060 8GB</li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled">
+                  <li><strong>Màn hình:</strong> 16" WQXGA 165Hz</li>
+                  <li><strong>Pin:</strong> 80Wh - sạc nhanh 230W</li>
+                  <li><strong>Cân nặng:</strong> 2.2kg</li>
+                  <li><strong>Hệ điều hành:</strong> Windows 11</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row ps-2">Nước sản Xuất: TQ</div>
+          </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="col-md-6">
+          <h2 class="mb-3 d-none d-md-block">Legion Slim 5 R7000P 2024</h2>
+          <p class="text-muted mb-4">Mã Máy: R7000P</p>
+          <div class="mb-3">
+            <span class="h4 me-2">25,790,000₫</span>
+            <span class="text-muted"><s>27,790,000₫</s></span>
+          </div>
+          <div class="mb-3">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-half text-warning"></i>
+            <span class="ms-2">4.5 (120 reviews)</span>
+          </div>
+          <p class="mb-4">Legion Slim 5 R7000P 2024 là mẫu laptop gaming đến từ thương hiệu laptop Lenovo đã được giới game thủ đánh giá cực cao trong thời gian vừa qua. Bởi lẽ, chiếc laptop - máy tính xách tay chơi game này không chỉ sở hữu thiết kế bền bỉ, cực chắc chắn mà còn có hiệu năng đồ họa vượt trội, cùng hệ thống tản nhiệt mát mẻ. Để tìm hiểu chi tiết hơn về dòng sản phẩm Lenovo Legion này, mời các bạn tham khảo thông số cấu hình bên dưới!</p>
+
+          <div class="mb-3">
+            <span class="badge bg-success"><i class="bi bi-check-circle me-1"></i> Còn hàng tại: HCM, Hà Nội</span>
+            <!-- <!-- Nếu hết hàng thì dùng:  -->
+            <!-- <span class="badge bg-danger"><i class="bi bi-x-circle"></i> Tạm hết hàng</span> -->
+          </div>
+          <!-- <div class="flex-grow-1 border-top mt-2 mb-2"></div> -->
+
+          <button class="btn btn-warning btn-lg mb-3 me-2"><i class="bi bi-currency-dollar"></i>Mua Ngay</button>
+          <button class="btn btn-primary btn-lg mb-3 me-2"><i class="bi bi-cart-plus"></i>Thêm Vào Giỏ Hàng</button>
+          <!-- <button class="btn btn-outline-secondary btn-lg mb-3"><i class="bi bi-heart"></i> Add to Wishlist</button> -->
+          <!-- Key Features -->
+          <div class="mt-4">
+            <h5>Tính năng nổi bật:</h5>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-check-circle-fill text-success me-2"></i> Hiệu năng vượt trội với RTX 4060</li>
+              <li><i class="bi bi-check-circle-fill text-success me-2"></i> Màn hình chuẩn màu, tần số quét 165Hz</li>
+              <li><i class="bi bi-check-circle-fill text-success me-2"></i> Thiết kế mỏng nhẹ, cao cấp</li>
+              <li><i class="bi bi-check-circle-fill text-success me-2"></i> Tản nhiệt ColdFront 5.0 cực mát</li>
+            </ul>
+          </div>
+
+          <div class="alert alert-success mt-3" role="alert">🎁 <strong>Ưu đãi đặc biệt:</strong> Tặng balo Lenovo trị giá 1.000.000₫ + Chuột không dây khi mua trong hôm nay!</div>
+
+          <div class="alert alert-info" role="alert">🚚 <strong>Miễn phí giao hàng toàn quốc</strong> - Giao nhanh nội thành trong 2h!</div>
+
+          <!-- Gợi ý nên đặt dưới cùng trang -->
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function changeImage(event, src) {
+        document.getElementById("mainImage").src = src;
+        document.querySelectorAll(".thumbnail").forEach((thumb) => thumb.classList.remove("active"));
+        event.target.classList.add("active");
+      }
+    </script>
+  </body>
+</html>

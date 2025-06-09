@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Bán Hàng - Thanh Tịnh</title>
+
+    <!-- @import -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+    <!-- thu vien slick -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!--! header -->
+      <header>
+        <!--* navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd">
+          <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+              <img src="assets/images/hehehe.jpg" alt="icon" width="30" height="24" class="me-2" />
+              <span class="fw-bold text-dark">Thanh Tịnh Shop</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <!-- ?  Nút này xuất hiện khi giao diện ở chế độ màn hình nhỏ (responsive/mobile). -->
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Best Seller</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Legion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Iphone</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ipad</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Danh Mục </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                    <li><a class="dropdown-item" href="#">Điện Thoại</a></li>
+                    <li><a class="dropdown-item" href="#">Máy Tính Bảng</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Phụ kiện laptop</a></li>
+                    <li><a class="dropdown-item" href="#">Phụ kiện điện thoại</a></li>
+                    <li><a class="dropdown-item" href="#">Sản phẩm khác</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Liên Hệ</a>
+                </li>
+              </ul>
+
+              <form class="d-flex flex-grow-1 mx-lg-3">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <!-- cart -->
+              <a class="nav-link position-relative bg-light border rounded" href="cart.html">
+                <i class="bi bi-cart3 fs-6"></i> Giỏ hàng
+                <!-- Số lượng sp trong giỏ (tạm hardcode là 2, sau có JS thì update) -->
+                <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  2
+                  <span class="visually-hidden">items in cart</span> -->
+                <!-- </span> -->
+              </a>
+
+              <!-- avt + dn + dk -->
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-person-circle"></i>
+              </a>
+
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                <li><a class="dropdown-item" href="/login">Đăng nhập</a></li>
+                <li><a class="dropdown-item" href="/register">Đăng ký</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!--* banner -->
+        <div class="container-fluid mt-1">
+          <div class="row">
+            <!-- menu -->
+            <div class="col-lg-3 d-none d-lg-block pe-2 ps-0">
+              <div class="card">
+                <div class="card-header my-bg-color text-white">
+                  <h5 class="mb-0"><i class="bi bi-list me-2"></i> Danh mục sản phẩm</h5>
+                </div>
+                <div class="list-group list-group-flush">
+                  <a href="#LaptopGaming" class="list-group-item list-group-item-action">Laptop Gaming</a>
+                  <a href="#LegionSection" class="list-group-item list-group-item-action">Legion</a>
+                  <a href="#MacBookSection" class="list-group-item list-group-item-action">MacBook</a>
+                  <a href="#IphoneSection" class="list-group-item list-group-item-action">iPhone</a>
+                  <a href="#IpadSection" class="list-group-item list-group-item-action">iPad</a>
+                  <a href="#AppleWatchSection" class="list-group-item list-group-item-action">Apple Watch</a>
+                  <a href="#PhuKienSection" class="list-group-item list-group-item-action">Phụ kiện</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- carousel / slide -->
+            <div class="col-lg-7 px-0">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/slides/slide1.jpg" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/slides/slide2.jpg" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/slides/slide3.jpg" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/slides/slide4.jpg" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/slides/slide5.jpg" class="d-block w-100" alt="..." />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Quảng cáo -->
+            <div class="col-lg-2 d-none d-lg-block ps-2 pe-0">
+              <div class="d-flex flex-column gap-3">
+                <img src="assets/images/ads/ads-1.jpg" class="img-fluid rounded" alt="Quảng cáo 1" />
+                <img src="assets/images/ads/ads-2.jpg" class="img-fluid rounded" alt="Quảng cáo 2" />
+                <img src="assets/images/ads/ads-3.jpg" class="img-fluid rounded" alt="Quảng cáo 3" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="flex-grow-1 border-top mt-2 mb-2"></div>
+
+      <!--! content web -->
+      <section class="container-fluid">
+        <div class="d-flex align-items-center mb-3">
+          <h5 class="me-3 mb-0">DANH MỤC SẢN PHẨM</h5>
+          <div class="flex-grow-1 border-top"></div>
+        </div>
+
+        <!-- * section: Best Seller -->
+        <div class="card p-3 mb-4 my-bg-color position-relative">
+          <div class="d-flex align-items-center mb-3">
+            <div class="flex-grow-1 border-top"></div>
+            <!-- Flash sale img -->
+            <img src="assets/images/icon/icon-fs.png" alt="" style="height: 30px" />
+            <div class="flex-grow-1 border-top"></div>
+          </div>
+
+          <!-- * itemList: Best seller -->
+          <div class="d-flex flex-wrap gap-3 justify-content-center best-seller-container">
+            <!-- <div class="seller-carousel gap-3 justify-content-center"> -->
+            <!-- item 1 -->
+            <div class="card border-0" style="max-width: 280px">
+              <img src="assets/images/product/legion-r7000p.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Legion Slim 5 R7000P 2024</h5>
+                <p class="card-text text-truncate-2">Legion Slim 5 R7000P 2024 là mẫu laptop gaming đến từ thương hiệu laptop Lenovo</p>
+                <p class="card-text spec-line text-truncate-1">R7-8845H 16GB RAM 1TB SSD RTX 4060</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">25,790,000₫ </span>
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">31,800,000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-lg-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <!-- <button class="btn btn-success btn-sm">Xem Chi Tiết</button> -->
+                <a href="product-card.html" class="btn btn-success btn-sm">Xem Chi Tiết</a>
+
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="card border-0 active-content-when-click d-md-block" style="max-width: 280px">
+              <img src="assets/images/product/legion-r9000p.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Legion 5 Pro 2024 R9000P</h5>
+                <p class="card-text text-truncate-2">Lenovo Legion Pro 5 R9000P 2024 là một trong những “chiến binh” Gaming mạnh nhất được Lenovo tung ra thị trường năm 2024</p>
+                <p class="card-text spec-line text-truncate-1">Ryzen 9 7945HX 16GB RAM 1TB SSD RTX4070</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">35,200,000₫ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">36,500,000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 3 -->
+            <div class="card border-0 active-content-when-click" style="max-width: 280px">
+              <img src="assets/images/product/zbook-g11.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">HP Zbook Power G11</h5>
+                <p class="card-text text-truncate-2">Laptop HP Zbook Power g11 16 inch là chiếc laptop sở hữu phong cách thời thượng, sang trọng với sức mạnh xử lý dữ liệu nhanh chóng cùng thời lượng Pin khủng. Máy mang đặc trưng của chiếc Workstation</p>
+                <p class="card-text spec-line text-truncate-1">R7-8845HS 16GB 32GB RAM 1TB SSD</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">19,690,000₫</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">25,500,000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 4 -->
+            <div class="card border-0 active-content-when-click" style="max-width: 280px; min-width: 280">
+              <img src="assets/images/product/iphone-13.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">iPhone 13 128GB | Chính hãng VN/A</h5>
+                <p class="card-text text-truncate-2">Máy mới 100% , chính hãng Apple Việt Nam. CellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam</p>
+                <p class="card-text spec-line text-truncate-1">Chip Apple A15 Bionic mạnh mẽ, hỗ trợ mạng 5G tốc độ cao</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">11.590.000đ</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">13.590.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 5 -->
+            <div class="card border-0 active-content-when-click" style="max-width: 280px">
+              <img src="assets/images/product/ipad-pro-m4-11-inch_5_.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">iPad Pro M4 11 inch Wifi 256GB | Chính hãng Apple Việt Nam</h5>
+                <p class="card-text text-truncate-2">Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã ZA/A (được Apple Việt Nam phân phối chính thức).</p>
+                <p class="card-text spec-line">Công nghệ ProMotion Độ sáng 1000nits, 264 ppi Tần số quét 120Hz True Tone Công nghệ ép kín</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">26.690.000đ</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">28.690.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 6 -->
+            <div class="card border-0 active-content-when-click" style="max-width: 280px">
+              <img src="assets/images/product/yoga-slim-7.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Yoga Slim 7i Aura Edition</h5>
+                <p class="card-text text-truncate-2">Lenovo Yoga Slim 7i Aura Edition (Yoga Air 15s) là đối thủ đáng gờm trong phân khúc laptop văn phòng cao cấp, phục vụ tối đa nhu cầu của người dùng ở bất cứ đâu.</p>
+                <p class="card-text spec-line">Ultra7 258V 32GB RAM 1TB SSD</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">29,900,000₫ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">34,500,000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 7 -->
+            <div class="card border-0 active-content-when-click" style="max-width: 280px">
+              <img src="assets/images/product/mahinhviewsonic.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Màn Hình ViewSonic VX2758-2K-PRO-5</h5>
+                <p class="card-text text-truncate-2">Màn hình ViewSonic VX2758 2k Pro 5 27″ là một lựa chọn tuyệt vời cho các game thủ và nhà sáng tạo nội dung. Với độ phân giải QHD sắc nét, tần số quét 185Hz mượt mà và tấm nền IPS cho màu sắc sống động, VX2758 2k Pro 5 mang đến trải nghiệm hình ảnh ấn tượng cho mọi nhu cầu sử dụng.</p>
+                <p class="card-text spec-line">27 inch FAST IPS 185hz</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">4,500,000₫ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">5,100,000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 8-->
+            <div class="card border-0 active-content-when-click" style="max-width: 280px">
+              <img src="assets/images/product/sss25u.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Samsung Galaxy S25 Ultra 12GB 256GB</h5>
+                <p class="card-text text-truncate-2">Samsung S25 Ultra mạnh mẽ với chip Snapdragon 8 Elite For Galaxy mới nhất, RAM 12GB và bộ nhớ trong 256GB-1TB. Hệ thống 3 camera sau chất lượng gồm camera chính 200MP, camera tele 50MP và camera góc siêu rộng 50MP.</p>
+                <p class="card-text spec-line">Snapdragon 8 Elite dành cho Galaxy (3nm)</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">28.990.000đ</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">33.690.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev slick-prev-custom d-none" type="button" data-bs-target="#bestSellerCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Trước</span>
+          </button>
+          <button class="carousel-control-next slick-prev-custom d-none" type="button" data-bs-target="#bestSellerCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Tiếp</span>
+          </button>
+
+          <div class="active-content-when-click d-lg-none">Test active</div>
+
+          <div class="d-flex d-lg-none text-center justify-content-center mt-3">
+            <button id="loadMoreBtn" class="btn btn-secondary w-75">Xem thêm</button>
+          </div>
+        </div>
+
+        <!-- * section: Laptop Gaming -->
+        <div class="my-4" id="LaptopGaming">
+          <div class="d-flex align-items-center mb-3">
+            <div class="flex-grow-1 border-top"></div>
+            <h5 class="mx-3 px-4 py-2 bg-danger bg-opacity-10 text-primary rounded-pill shadow-sm fw-bold text-uppercase letter-spacing-1 text-white"><i class="bi bi-lightning-charge-fill me-2"></i>Laptop Gaming</h5>
+            <div class="flex-grow-1 border-top"></div>
+          </div>
+          <!-- * item section -->
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <!-- item 2 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/legion-r9000p.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Legion 5 Pro 2024 R9000P</h5>
+                <p class="card-text text-truncate-2">Lenovo Legion Pro 5 R9000P 2024 là một trong những “chiến binh” Gaming mạnh nhất được Lenovo tung ra thị trường năm 2024</p>
+                <p class="card-text spec-line text-truncate-1">Ryzen 9 7945HX 16GB RAM 1TB SSD RTX4070</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">35,200,000₫ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">36,500,000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/legion-r9000p.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Legion 5 Pro 2024 R9000P</h5>
+                <p class="card-text text-truncate-2">Lenovo Legion Pro 5 R9000P 2024 là một trong những “chiến binh” Gaming mạnh nhất được Lenovo tung ra thị trường năm 2024</p>
+                <p class="card-text spec-line text-truncate-1">Ryzen 9 7945HX 16GB RAM 1TB SSD RTX4070</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">35,200,000₫ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">36,500,000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/legion-r9000p.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Legion 5 Pro 2024 R9000P</h5>
+                <p class="card-text text-truncate-2">Lenovo Legion Pro 5 R9000P 2024 là một trong những “chiến binh” Gaming mạnh nhất được Lenovo tung ra thị trường năm 2024</p>
+                <p class="card-text spec-line text-truncate-1">Ryzen 9 7945HX 16GB RAM 1TB SSD RTX4070</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">35,200,000₫ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">36,500,000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/legion-r9000p.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Legion 5 Pro 2024 R9000P</h5>
+                <p class="card-text text-truncate-2">Lenovo Legion Pro 5 R9000P 2024 là một trong những “chiến binh” Gaming mạnh nhất được Lenovo tung ra thị trường năm 2024</p>
+                <p class="card-text spec-line text-truncate-1">Ryzen 9 7945HX 16GB RAM 1TB SSD RTX4070</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">35,200,000₫ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">36,500,000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- * section: Legion -->
+        <div id="LegionSection" class="my-4">
+          <div class="d-flex align-items-center mb-3">
+            <div class="flex-grow-1 border-top"></div>
+            <h5 class="mx-3 px-4 py-2 bg-primary bg-opacity-10 text-primary rounded-pill shadow-sm fw-bold text-uppercase letter-spacing-1 text-white"><i class="bi bi-lightning-charge-fill me-2"></i>Legion</h5>
+            <div class="flex-grow-1 border-top"></div>
+          </div>
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <!-- item 1 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/legion-r7000p.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Legion Slim 5 R7000P 2024</h5>
+                <p class="card-text text-truncate-2">Legion Slim 5 R7000P 2024 là mẫu laptop gaming đến từ thương hiệu laptop Lenovo</p>
+                <p class="card-text spec-line text-truncate-1">R7-8845H 16GB RAM 1TB SSD RTX 4060</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">25,790,000₫ </span>
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">31,800,000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-lg-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 1 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/legion-r7000p.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Legion Slim 5 R7000P 2024</h5>
+                <p class="card-text text-truncate-2">Legion Slim 5 R7000P 2024 là mẫu laptop gaming đến từ thương hiệu laptop Lenovo</p>
+                <p class="card-text spec-line text-truncate-1">R7-8845H 16GB RAM 1TB SSD RTX 4060</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">25,790,000₫ </span>
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">31,800,000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-lg-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 1 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/legion-r7000p.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Legion Slim 5 R7000P 2024</h5>
+                <p class="card-text text-truncate-2">Legion Slim 5 R7000P 2024 là mẫu laptop gaming đến từ thương hiệu laptop Lenovo</p>
+                <p class="card-text spec-line text-truncate-1">R7-8845H 16GB RAM 1TB SSD RTX 4060</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">25,790,000₫ </span>
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">31,800,000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-lg-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 1 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/legion-r7000p.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Legion Slim 5 R7000P 2024</h5>
+                <p class="card-text text-truncate-2">Legion Slim 5 R7000P 2024 là mẫu laptop gaming đến từ thương hiệu laptop Lenovo</p>
+                <p class="card-text spec-line text-truncate-1">R7-8845H 16GB RAM 1TB SSD RTX 4060</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">25,790,000₫ </span>
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">31,800,000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-lg-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- * section: Macbook -->
+        <div id="MacBookSection" class="my-4">
+          <div class="d-flex align-items-center mb-3">
+            <div class="flex-grow-1 border-top"></div>
+            <h5 class="mx-3 px-4 py-2 bg-warning bg-opacity-10 text-primary rounded-pill shadow-sm fw-bold text-uppercase letter-spacing-1 text-white"><i class="bi bi-lightning-charge-fill me-2"></i>MacBook</h5>
+            <div class="flex-grow-1 border-top"></div>
+          </div>
+          <!-- *item list -->
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <!-- item 2 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/macbook.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Laptop MacBook Pro 14 inch Nano M4 Pro 24GB/512GB</h5>
+                <p class="card-text text-truncate-2">Macbook Pro M4 không chỉ nổi bật với chip xử lý mạnh mẽ mà còn được trang bị RAM 24 GB lớn hơn đáng kể với mức "thông dụng" nhưng mức giá vẫn "nguyên vẹn" so với các phiên bản trước đây</p>
+                <p class="card-text spec-line text-truncate-1">Apple M4 Pro</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">52.390.000₫ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">56.390.000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/macbook.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Laptop MacBook Pro 14 inch Nano M4 Pro 24GB/512GB</h5>
+                <p class="card-text text-truncate-2">Macbook Pro M4 không chỉ nổi bật với chip xử lý mạnh mẽ mà còn được trang bị RAM 24 GB lớn hơn đáng kể với mức "thông dụng" nhưng mức giá vẫn "nguyên vẹn" so với các phiên bản trước đây</p>
+                <p class="card-text spec-line text-truncate-1">Apple M4 Pro</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">52.390.000₫ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">56.390.000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/macbook.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Laptop MacBook Pro 14 inch Nano M4 Pro 24GB/512GB</h5>
+                <p class="card-text text-truncate-2">Macbook Pro M4 không chỉ nổi bật với chip xử lý mạnh mẽ mà còn được trang bị RAM 24 GB lớn hơn đáng kể với mức "thông dụng" nhưng mức giá vẫn "nguyên vẹn" so với các phiên bản trước đây</p>
+                <p class="card-text spec-line text-truncate-1">Apple M4 Pro</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">52.390.000₫ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">56.390.000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/macbook.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Laptop MacBook Pro 14 inch Nano M4 Pro 24GB/512GB</h5>
+                <p class="card-text text-truncate-2">Macbook Pro M4 không chỉ nổi bật với chip xử lý mạnh mẽ mà còn được trang bị RAM 24 GB lớn hơn đáng kể với mức "thông dụng" nhưng mức giá vẫn "nguyên vẹn" so với các phiên bản trước đây</p>
+                <p class="card-text spec-line text-truncate-1">Apple M4 Pro</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">52.390.000₫ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">56.390.000₫</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- * section: Iphone -->
+        <div id="IphoneSection" lass="my-4">
+          <div class="d-flex align-items-center mb-3">
+            <div class="flex-grow-1 border-top"></div>
+            <h5 class="mx-3 px-4 py-2 bg-light bg-opacity-10 text-black-50 rounded-pill shadow-sm fw-bold text-uppercase letter-spacing-1 text-white"><i class="bi bi-lightning-charge-fill me-2"></i>Iphone</h5>
+            <div class="flex-grow-1 border-top"></div>
+          </div>
+          <!-- *item list -->
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <!-- item 4 -->
+            <div class="card border-1" style="max-width: 280px; min-width: 280">
+              <img src="assets/images/product/iphone-13.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">iPhone 13 128GB | Chính hãng VN/A</h5>
+                <p class="card-text text-truncate-2">Máy mới 100% , chính hãng Apple Việt Nam. CellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam</p>
+                <p class="card-text spec-line text-truncate-1">Chip Apple A15 Bionic mạnh mẽ, hỗ trợ mạng 5G tốc độ cao</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">11.590.000đ</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">13.590.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 4 -->
+            <div class="card border-1" style="max-width: 280px; min-width: 280">
+              <img src="assets/images/product/iphone-13.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">iPhone 13 128GB | Chính hãng VN/A</h5>
+                <p class="card-text text-truncate-2">Máy mới 100% , chính hãng Apple Việt Nam. CellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam</p>
+                <p class="card-text spec-line text-truncate-1">Chip Apple A15 Bionic mạnh mẽ, hỗ trợ mạng 5G tốc độ cao</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">11.590.000đ</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">13.590.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 4 -->
+            <div class="card border-1" style="max-width: 280px; min-width: 280">
+              <img src="assets/images/product/iphone-13.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">iPhone 13 128GB | Chính hãng VN/A</h5>
+                <p class="card-text text-truncate-2">Máy mới 100% , chính hãng Apple Việt Nam. CellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam</p>
+                <p class="card-text spec-line text-truncate-1">Chip Apple A15 Bionic mạnh mẽ, hỗ trợ mạng 5G tốc độ cao</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">11.590.000đ</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">13.590.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 4 -->
+            <div class="card border-1" style="max-width: 280px; min-width: 280">
+              <img src="assets/images/product/iphone-13.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">iPhone 13 128GB | Chính hãng VN/A</h5>
+                <p class="card-text text-truncate-2">Máy mới 100% , chính hãng Apple Việt Nam. CellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam</p>
+                <p class="card-text spec-line text-truncate-1">Chip Apple A15 Bionic mạnh mẽ, hỗ trợ mạng 5G tốc độ cao</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">11.590.000đ</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">13.590.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- * section: Ipad -->
+        <div id="IpadSection" class="my-4">
+          <div class="d-flex align-items-center mb-3">
+            <div class="flex-grow-1 border-top"></div>
+            <h5 class="mx-3 px-4 py-2 bg-success bg-opacity-10 text-light rounded-pill shadow-sm fw-bold text-uppercase letter-spacing-1 text-white"><i class="bi bi-lightning-charge-fill me-2"></i>Ipad</h5>
+            <div class="flex-grow-1 border-top"></div>
+          </div>
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <!-- item 5 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/ipad-pro-m4-11-inch_5_.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">iPad Pro M4 11 inch Wifi 256GB | Chính hãng Apple Việt Nam</h5>
+                <p class="card-text text-truncate-2">Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã ZA/A (được Apple Việt Nam phân phối chính thức).</p>
+                <p class="card-text spec-line">Công nghệ ProMotion Độ sáng 1000nits, 264 ppi Tần số quét 120Hz True Tone Công nghệ ép kín</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">26.690.000đ</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">28.690.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 5 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/ipad-pro-m4-11-inch_5_.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">iPad Pro M4 11 inch Wifi 256GB | Chính hãng Apple Việt Nam</h5>
+                <p class="card-text text-truncate-2">Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã ZA/A (được Apple Việt Nam phân phối chính thức).</p>
+                <p class="card-text spec-line">Công nghệ ProMotion Độ sáng 1000nits, 264 ppi Tần số quét 120Hz True Tone Công nghệ ép kín</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">26.690.000đ</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">28.690.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 5 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/ipad-pro-m4-11-inch_5_.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">iPad Pro M4 11 inch Wifi 256GB | Chính hãng Apple Việt Nam</h5>
+                <p class="card-text text-truncate-2">Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã ZA/A (được Apple Việt Nam phân phối chính thức).</p>
+                <p class="card-text spec-line">Công nghệ ProMotion Độ sáng 1000nits, 264 ppi Tần số quét 120Hz True Tone Công nghệ ép kín</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">26.690.000đ</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">28.690.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 5 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/ipad-pro-m4-11-inch_5_.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">iPad Pro M4 11 inch Wifi 256GB | Chính hãng Apple Việt Nam</h5>
+                <p class="card-text text-truncate-2">Máy mới 100%, đầy đủ phụ kiện từ nhà sản xuất. Sản phẩm có mã ZA/A (được Apple Việt Nam phân phối chính thức).</p>
+                <p class="card-text spec-line">Công nghệ ProMotion Độ sáng 1000nits, 264 ppi Tần số quét 120Hz True Tone Công nghệ ép kín</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">26.690.000đ</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">28.690.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- * section: Apple Watch -->
+        <div id="AppleWatchSection" class="my-4">
+          <div class="d-flex align-items-center mb-3">
+            <div class="flex-grow-1 border-top"></div>
+            <h5 class="mx-3 px-4 py-2 bg-info bg-opacity-10 text-light rounded-pill shadow-sm fw-bold text-uppercase letter-spacing-1 text-white"><i class="bi bi-lightning-charge-fill me-2"></i>Apple Watch</h5>
+            <div class="flex-grow-1 border-top"></div>
+          </div>
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <!-- item 6 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/apple-watch.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Apple Watch Series 10 42mm viền nhôm dây thể thao</h5>
+                <p class="card-text text-truncate-2">Apple Watch Series 10 sở hữu một trong những điểm nhấn đáng chú ý nhất chính là phiên bản vỏ hợp kim nhôm màu đen tuyền. Để tạo ra lớp vỏ đen bóng đẹp mắt này</p>
+                <p class="card-text spec-line">OLED</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">8.480.000₫</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">10.690.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 6 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/apple-watch.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Apple Watch Series 10 42mm viền nhôm dây thể thao</h5>
+                <p class="card-text text-truncate-2">Apple Watch Series 10 sở hữu một trong những điểm nhấn đáng chú ý nhất chính là phiên bản vỏ hợp kim nhôm màu đen tuyền. Để tạo ra lớp vỏ đen bóng đẹp mắt này</p>
+                <p class="card-text spec-line">OLED</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">8.480.000₫</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">10.690.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 6 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/apple-watch.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Apple Watch Series 10 42mm viền nhôm dây thể thao</h5>
+                <p class="card-text text-truncate-2">Apple Watch Series 10 sở hữu một trong những điểm nhấn đáng chú ý nhất chính là phiên bản vỏ hợp kim nhôm màu đen tuyền. Để tạo ra lớp vỏ đen bóng đẹp mắt này</p>
+                <p class="card-text spec-line">OLED</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">8.480.000₫</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">10.690.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 6 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/apple-watch.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Apple Watch Series 10 42mm viền nhôm dây thể thao</h5>
+                <p class="card-text text-truncate-2">Apple Watch Series 10 sở hữu một trong những điểm nhấn đáng chú ý nhất chính là phiên bản vỏ hợp kim nhôm màu đen tuyền. Để tạo ra lớp vỏ đen bóng đẹp mắt này</p>
+                <p class="card-text spec-line">OLED</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">8.480.000₫</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">10.690.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- * section: Phu Kien -->
+        <div id="PhuKienSection" class="my-4">
+          <div class="d-flex align-items-center mb-3">
+            <div class="flex-grow-1 border-top"></div>
+            <h5 class="mx-3 px-4 py-2 bg-primary bg-opacity-10 text-body rounded-pill shadow-sm fw-bold text-uppercase letter-spacing-1 text-white"><i class="bi bi-lightning-charge-fill me-2"></i>Phụ Kiện</h5>
+            <div class="flex-grow-1 border-top"></div>
+          </div>
+
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <!-- item 7 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/balo.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Balo Lenovo Legion C3</h5>
+                <p class="card-text text-truncate-2">Túi chính hãng Lenono Legion C3 và rất đẹp</p>
+                <p class="card-text spec-line">Đẹp</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">600,000₫ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">690.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 7 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/tuichongsoc.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Túi chống sốc (Lenovo Xiaoxin) 14/16 inch</h5>
+                <p class="card-text text-truncate-2">Túi chính hãng Lenono Xiaoxin Max. Để tạo ra lớp vỏ đen bóng đẹp mắt này</p>
+                <p class="card-text spec-line">Đẹp</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">300,000₫ ₫</span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">690.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 7 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/chuot.png" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Chuột Lenovo Xiaoxin XM300</h5>
+                <p class="card-text text-truncate-2">Chuột Lenovo Xiaoxin XM300 sở hữu một trong những điểm nhấn đáng chú ý nhất chính là phiên bản vỏ hợp kim nhôm màu đen tuyền. Để tạo ra lớp vỏ đen bóng đẹp mắt này</p>
+                <p class="card-text spec-line">Chuột Xiaoxin BT Wireless Plus</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">300,000₫ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">490.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+
+            <!-- item 7 -->
+            <div class="card border-1" style="max-width: 280px">
+              <img src="assets/images/product/oplung-ip16.jpg" class="card-img-top" alt="Product Image" />
+              <div class="card-body">
+                <h5 class="card-title text-truncate-1">Ốp lưng iPhone 16 Pro Max Apple Silicone With Magsafe</h5>
+                <p class="card-text text-truncate-2">Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple Việt Nam</p>
+                <p class="card-text spec-line">Bảo vệ toàn diện cho iPhone 16 Pro Max khỏi va đập, rơi rớt</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="h5 mb-0">1.250.000đ </span>
+
+                  <div>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <small class="text-muted">(4.5)</small>
+                  </div>
+                </div>
+                <span class="h5 mb-0 text-decoration-line-through text-muted small">1.690.000đ</span>
+              </div>
+              <div class="card-footer d-flex justify-content-between bg-light">
+                <button class="btn btn-primary btn-sm">Thêm Vào Giỏ</button>
+                <button class="btn btn-success btn-sm">Xem Chi Tiết</button>
+                <button class="btn btn-outline-secondary btn-sm"><i class="bi bi-heart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- ! Footer -->
+    <footer class="bg-dark text-light py-5 mt-2">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Company Info -->
+          <div class="col-lg-4 col-md-6">
+            <h5 class="mb-4">About Us</h5>
+            <p class="mb-4">We are dedicated to providing innovative solutions that help businesses grow and succeed in the digital age.</p>
+            <div class="social-links">
+              <a href="#" class="social-icon bg-primary"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon bg-info"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon bg-danger"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-icon bg-primary"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-2 col-md-6">
+            <h5 class="mb-4">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#" class="footer-link">Home</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">About</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Services</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Portfolio</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+          <div class="col-lg-2 col-md-6">
+            <h5 class="mb-4">Services</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#" class="footer-link">Web Design</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Development</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Marketing</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Consulting</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Analytics</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-lg-4 col-md-6">
+            <h5 class="mb-4">Contact Info</h5>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <i class="fas fa-map-marker-alt me-2"></i>
+                123 Business Street, New York, NY 10001
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+1234567890" class="footer-link">+1 (234) 567-890</a>
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-envelope me-2"></i>
+                <a href="mailto:contact@example.com" class="footer-link">contact@example.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row mt-5">
+          <div class="col-12">
+            <hr class="mb-4" />
+            <div class="text-center">
+              <p class="mb-0">&copy; 2024 Your Company. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- my js -->
+    <script src="assets/script/main.js"></script>
+  </body>
+</html>

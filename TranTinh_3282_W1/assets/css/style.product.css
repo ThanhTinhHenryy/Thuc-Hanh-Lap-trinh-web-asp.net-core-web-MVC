@@ -1,0 +1,27 @@
+#mainImage {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc; /* viền rõ hơn */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* tạo bóng nhẹ cho nổi bật */
+}
+
+.product-image {
+  max-height: 400px;
+  object-fit: cover;
+}
+.thumbnail {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+.thumbnail:hover,
+.thumbnail.active {
+  opacity: 1;
+}
