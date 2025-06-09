@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranTinh_3282_W3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb866d41c571f47cb390606f4c071bde32e77899")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42a887e495346b0afd5323046b2a7536901218b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranTinh_3282_W3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranTinh_3282_W3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

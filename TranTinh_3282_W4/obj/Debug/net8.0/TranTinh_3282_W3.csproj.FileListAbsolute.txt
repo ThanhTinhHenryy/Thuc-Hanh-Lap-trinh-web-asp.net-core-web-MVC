@@ -1031,8 +1031,8 @@ D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\W4\Thuc-Hanh-
 D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\Project\TranTinh_3282_W4\bin\Debug\net8.0\.filenesting.json
 D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\Project\TranTinh_3282_W4\bin\Debug\net8.0\appsettings.Development.json
 D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\Project\TranTinh_3282_W4\bin\Debug\net8.0\appsettings.json
-D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\Project\TranTinh_3282_W4\bin\Debug\net8.0\TranTinh_3282_W3.staticwebassets.endpoints.json
 D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\Project\TranTinh_3282_W4\bin\Debug\net8.0\TranTinh_3282_W3.staticwebassets.runtime.json
+D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\Project\TranTinh_3282_W4\bin\Debug\net8.0\TranTinh_3282_W3.staticwebassets.endpoints.json
 D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\Project\TranTinh_3282_W4\bin\Debug\net8.0\TranTinh_3282_W3.exe
 D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\Project\TranTinh_3282_W4\bin\Debug\net8.0\TranTinh_3282_W3.deps.json
 D:\StudyPlace\Homework_Exercises\Practice_code\ThucHanhLapTrinhWeb\Project\TranTinh_3282_W4\bin\Debug\net8.0\TranTinh_3282_W3.runtimeconfig.json
